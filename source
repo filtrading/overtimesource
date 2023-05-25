@@ -153,3 +153,27 @@ L->PC5052: Baseball - 979 Cleveland Guardians/New York Mets under 7½  104 for G
 L->PC3555: Baseball - 979 Cleveland Guardians/New York Mets under 7½  104 for Game Price Is Fixed  Pitchers: S BIEBER - R (must start), J VERLANDER - R (must start) 10000->10400
 
 L->PC5030: Baseball - 979 Cleveland Guardians/New York Mets under 4 -115 for 1st 5 Innings Price Is Fixed  Pitchers: S BIEBER - R (must start), J VERLANDER - R (must start) 3450->3000
+
+
+L->PC5052: Basketball - 541 Boston Celtics/Miami Heat under 215½ -110 for Game 11000->10000
+
+L->PC3555: Basketball - 541 Boston Celtics/Miami Heat under 215½ -110 for Game 11000->10000
+
+L->PC5063: Basketball - 541 Boston Celtics/Miami Heat under 215 -119 for Game 11900->10000
+
+L->PC5014: Basketball - 541 Boston Celtics/Miami Heat over 213 -104 for Game 10400->10000
+
+L->PC3563: Basketball - 541 Boston Celtics/Miami Heat over 213 -104 for Game 10400->10000
+
+S->PC5026: Basketball - 542 Miami Heat  3½ -101 for 1st Half 12625->12500
+
+M->PC5066: Basketball - 542 Miami Heat  146 for Game 100->146
+
+S->PC5015: Basketball - 542 Miami Heat  5 -119 for Game 29750->25000
+
+S->PC5029: Basketball - 542 Miami Heat  3½  109 for 1st Half 1999->2178.91
+
+S->PC5037: Basketball - 541 Boston Celtics -5  110 for Game 25000->27500
+
+S->PC4202: Basketball - 542 Miami Heat  3½  109 for 1st Half 12500->13625
+
