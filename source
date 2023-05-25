@@ -1,343 +1,156 @@
-<div class="data-component">
-			<!-- ngRepeat: gf in GamesInfo | filter:leagueFilter | orderBy: OrderByValue --><div class="row sport-settings-row ng-scope agent-line" ng-repeat="gf in GamesInfo | filter:leagueFilter | orderBy: OrderByValue " ng-class="{'sport-changed': gf.Changed, 'agent-line': gf.CustProfile != '.', 'disabled-line': LineIsActive(gf)}" style="">
 
-				<!--DATE HEADER-->
-				<div class="row">
-					<div class="col-md-12 d-flex justify-content-center bg-primary-color text-white ng-binding" ng-bind="FormatDateTime(gf.GameDateTimeString, 17)">Mon 22 May 8:30:00 PM</div>
-				</div>
-
-				<!--TEAM 1 LINES-->
-				<div class="row">
-					<div class="col-md-1 ng-binding" ng-bind="gf.Team1RotNum">543</div>
-					<div class="col-md-2 ng-binding" ng-bind="Translate(gf.Team1Id)">Denver Nuggets                          </div>
-					<!--Spread Team1 -->
-					<div class="col-md-2">
-						<div class="row">
-							<div class="col-md-6">
-								<input type="text" only-numbers="" class="form-control ng-pristine ng-untouched ng-valid" ng-model="gf.Spread1" ng-change="OnLineChange(gf, 'S', 'Pts', 1)" ng-disabled="LineIsActive(gf)">
-							</div>
-							<div class="col-md-6">
-								<input type="text" class="form-control input-sm ng-pristine ng-untouched ng-valid" ng-model="gf.SpreadAdj1" input-price-format="" ng-change="OnLineChange(gf, 'S', 'Adj', 1); clearSpread(gf, 1)" ng-disabled="LineIsActive(gf)">
-							</div>
-						</div>
-					</div>
-					<!--Money Line Team1 -->
-					<div class="col-md-2">
-						<div class="row">
-							<div class="col-md-11 col-md-offset-1">
-								<input type="text" class="form-control input-sm ng-pristine ng-untouched ng-valid" ng-model="gf.MoneyLine1" input-price-format="" ng-change="OnLineChange(gf, 'M', 'Adj', 1)" ng-disabled="LineIsActive(gf)">
-							</div>
-						</div>
-					</div>
-					<!--Total Team1 -->
-					<div class="col-md-2">
-						<div class="row">
-							<div class="col-md-6">
-								<input type="text" only-numbers="" class="form-control input-sm ng-pristine ng-untouched ng-valid" ng-model="gf.TotalPoints" ng-change="OnLineChange(gf, 'L', 'Pts', 1)" ng-disabled="LineIsActive(gf)">
-							</div>
-							<div class="col-md-6">
-								<input type="text" class="form-control input-sm ng-pristine ng-untouched ng-valid" ng-model="gf.TtlPtsAdj1" input-price-format="" ng-change="OnLineChange(gf, 'L', 'Adj', 1); clearTotal(gf, 3)" ng-disabled="LineIsActive(gf)">
-							</div>
-						</div>
-					</div>
-					<!--Team Total Team1 -->
-					<div class="col-md-2">
-						<div class="row">
-							<div class="col-md-6">
-								<input type="text" only-numbers="" class="form-control input-sm ng-pristine ng-untouched ng-valid" ng-model="gf.Team1TotalPoints" ng-change="OnLineChange(gf, 'E', 'Pts', 1)" ng-disabled="LineIsActive(gf)">
-							</div>
-							<div class="col-md-6">
-								<input type="text" class="form-control input-sm center-block ng-pristine ng-untouched ng-valid" ng-model="gf.Team1TtlPtsAdj1" input-price-format="" ng-change="OnLineChange(gf, 'E', 'Adj', 1); clearTotal(gf, 3)" ng-disabled="LineIsActive(gf)">
-								<input type="text" class="form-control input-sm center-block ng-pristine ng-untouched ng-valid" ng-model="gf.Team1TtlPtsAdj2" input-price-format="" ng-change="OnLineChange(gf, 'E', 'Adj', 3); clearTotal(gf, 3)" ng-disabled="LineIsActive(gf)">
-							</div>
-						</div>
-					</div>
-					<!--Actions -->
-					<div class="col-md-1" style=" padding-left:5px;">
-						<!-- ngIf: gf.CustProfile != '.' --><button class="btn btn-sm btn-warning btn-block ng-binding ng-scope" ng-if="gf.CustProfile != '.'" ng-click="DeleteAgentGameLine(gf)" ng-bind="Translate('Remove Shade')" ng-disabled="LineIsActive(gf)">Remove Shade</button><!-- end ngIf: gf.CustProfile != '.' -->
-						<!-- ngIf: ClearShadeLinesBtnVisible(gf) --><button class="btn btn-sm btn-danger btn-block ng-binding ng-scope" ng-if="ClearShadeLinesBtnVisible(gf)" ng-click="ClearShadeLines('A', gf)" ng-bind="Translate('Remove Lines')" ng-disabled="LineIsActive(gf)">Remove Lines</button><!-- end ngIf: ClearShadeLinesBtnVisible(gf) -->
-					</div>
+M->PC5014: Tennis - 8754 Bernarda Pera -190 for Game 9500->5000
 
 
-				</div>
+S->PC5008: Soccer - 200129 Chelsea  1 -120 for Game 18000->15000
 
-				<!--TEAM 2 LINES-->
-				<div class="row">
-					<div class="col-md-1 ng-binding" ng-bind="gf.Team2RotNum">544</div>
-					<div class="col-md-2 ng-binding" ng-bind="Translate(gf.Team2Id)">Los Angeles Lakers                      </div>
-					<!--Spread Team2 -->
-					<div class="col-md-2">
-						<div class="row">
-							<div class="col-md-6">
-								<input type="text" only-numbers="" class="form-control ng-pristine ng-untouched ng-valid" ng-model="gf.Spread2" ng-change="OnLineChange(gf, 'S', 'Pts', 2)" ng-disabled="LineIsActive(gf)">
-							</div>
-							<div class="col-md-6">
-								<input type="text" class="form-control ng-pristine ng-untouched ng-valid" ng-model="gf.SpreadAdj2" input-price-format="" ng-change="OnLineChange(gf, 'S', 'Adj', 2); clearSpread(gf, 1)" ng-disabled="LineIsActive(gf)">
-							</div>
-						</div>
-					</div>
-					<!--Money Line Team2 -->
-					<div class="col-md-2">
-						<div class="row">
-							<div class="col-md-11 col-md-offset-1">
-								<input type="text" class="form-control ng-pristine ng-untouched ng-valid" ng-model="gf.MoneyLine2" input-price-format="" ng-change="OnLineChange(gf, 'M', 'Adj', 2)" ng-disabled="LineIsActive(gf)">
-							</div>
-						</div>
-					</div>
-					<!--Total Team2 -->
-					<div class="col-md-2">
-						<div class="row">
-							<div class="col-md-6"> </div>
-							<div class="col-md-6">
-								<input type="text" class="form-control ng-pristine ng-untouched ng-valid" ng-model="gf.TtlPtsAdj2" input-price-format="" ng-change="OnLineChange(gf, 'L', 'Adj', 2); clearTotal(gf, 3)" ng-disabled="LineIsActive(gf)">
-							</div>
-						</div>
-					</div>
-					<!--Team Total Team2 -->
-					<div class="col-md-2">
-						<div class="row">
-							<div class="col-md-6">
-								<input type="text" only-numbers="" class="form-control input-sm ng-pristine ng-untouched ng-valid" ng-model="gf.Team2TotalPoints" ng-change="OnLineChange(gf, 'E', 'Pts', 2)" ng-disabled="LineIsActive(gf)">
-							</div>
-							<div class="col-md-6">
-								<input type="text" class="form-control input-sm center-block ng-pristine ng-untouched ng-valid" ng-model="gf.Team2TtlPtsAdj1" input-price-format="" ng-change="OnLineChange(gf, 'E', 'Adj', 2); clearTotal(gf, 3)" ng-disabled="LineIsActive(gf)">
-								<input type="text" class="form-control input-sm center-block ng-pristine ng-untouched ng-valid" ng-model="gf.Team2TtlPtsAdj2" input-price-format="" ng-change="OnLineChange(gf, 'E', 'Adj', 4); clearTotal(gf, 3)" ng-disabled="LineIsActive(gf)">
-							</div>
-						</div>
-					</div>
-					<!--Actions -->
-					<div class="col-md-1" style="padding-left:5px;">
-						<div ng-show="gf.CustProfile != '.'" class="">
-							<label for="exampleInputEmail1" class="small">Shade type:</label>
-							<select id="exampleInputEmail1" class="form-control small ng-pristine ng-untouched ng-valid" ng-change="ChangeLineLinkedToStoreFlag(gf)" ng-model="gf.LinkedToStoreFlag" ng-disabled="LineIsActive(gf)">
-								<option value="Y" class="ng-binding">Soft</option>
-								<option value="N" class="ng-binding">Hard</option>
-							</select>
-						</div>
-					</div>
-				</div>
-
-				<!--DRAW LINE-->
-				<div class="row">
-					<div class="col-md-5"></div>
-					<div class="col-md-2">
-						<!-- ngIf: SelectedSport.SportType == 'Soccer' -->
-					</div>
-				</div>
-
-				<!--
-							<div class="col-md-12">
-								<div class="row">
-									<div class="col-md-3">
-										<button class="btn btn-warning" ng-if="gf.CustProfile != '.'" ng-click="DeleteAgentGameLine(gf)" ng-bind="Translate('Remove Shaded Line')"></button>
-									</div>
-									<div class="col-md-3 col-centered" ng-if="1==0">
-										<div id="books-to-follow" class="form-group form-inline booksToFollow">
-											<select id="exampleInputEmail5" class="form-control custom-dropdown" ng-change="BooksToFollowChange(gf)" ng-options="bookItem.BookID as bookItem.Name for bookItem in gf.BooksToFollow" ng-model="gf.SpreadFollowBookId">
-												<option value="">NO AUTOMOVER</option>
-											</select>
-										</div>
-									</div>
-
-									<div class="col-md-3 col-centered" ng-if="1==0">
-										<div id="books-to-follow" class="form-group form-inline booksToFollow">
-											<select id="exampleInputEmail5" class="form-control custom-dropdown" ng-change="BooksToFollowChange(gf)" ng-options="bookItem.BookID as bookItem.Name for bookItem in gf.BooksToFollow" ng-model="gf.MoneylineFollowBookId">
-												<option value="">NO AUTOMOVER</option>
-											</select>
-										</div>
-									</div>
-
-									<div class="col-md-3 col-centered" ng-if="1==0">
-										<div id="books-to-follow" class="form-group form-inline books-to-follow">
-											<select id="exampleInputEmail5" class="form-control custom-dropdown" ng-change="BooksToFollowChange(gf)" ng-options="bookItem.BookID as bookItem.Name for bookItem in gf.BooksToFollow" ng-model="gf.TotalPointsFollowBookId">
-												<option value="">NO AUTOMOVER</option>
-											</select>
-										</div>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-md-3" ng-show="gf.CustProfile != '.'">
-										<div class="form-group form-inline">
-											<label for="exampleInputEmail1">Shade type:</label>
-											<select id="exampleInputEmail1" class="form-control custom-dropdown" ng-change="ChangeLineLinkedToStoreFlag(gf)" ng-model="gf.LinkedToStoreFlag">
-												<option value="Y">{{Translate('Soft')}}</option>
-												<option value="N">{{Translate('Hard')}}</option>
-											</select>
-										</div>
-									</div>
-								</div>
-							</div>
-				-->
-
-			</div><!-- end ngRepeat: gf in GamesInfo | filter:leagueFilter | orderBy: OrderByValue --><div class="row sport-settings-row ng-scope" ng-repeat="gf in GamesInfo | filter:leagueFilter | orderBy: OrderByValue " ng-class="{'sport-changed': gf.Changed, 'agent-line': gf.CustProfile != '.', 'disabled-line': LineIsActive(gf)}" style="">
-
-				<!--DATE HEADER-->
-				<div class="row">
-					<div class="col-md-12 d-flex justify-content-center bg-primary-color text-white ng-binding" ng-bind="FormatDateTime(gf.GameDateTimeString, 17)">Tue 23 May 8:30:00 PM</div>
-				</div>
-
-				<!--TEAM 1 LINES-->
-				<div class="row">
-					<div class="col-md-1 ng-binding" ng-bind="gf.Team1RotNum">545</div>
-					<div class="col-md-2 ng-binding" ng-bind="Translate(gf.Team1Id)">Boston Celtics                          </div>
-					<!--Spread Team1 -->
-					<div class="col-md-2">
-						<div class="row">
-							<div class="col-md-6">
-								<input type="text" only-numbers="" class="form-control ng-pristine ng-untouched ng-valid" ng-model="gf.Spread1" ng-change="OnLineChange(gf, 'S', 'Pts', 1)" ng-disabled="LineIsActive(gf)">
-							</div>
-							<div class="col-md-6">
-								<input type="text" class="form-control input-sm ng-pristine ng-untouched ng-valid" ng-model="gf.SpreadAdj1" input-price-format="" ng-change="OnLineChange(gf, 'S', 'Adj', 1); clearSpread(gf, 1)" ng-disabled="LineIsActive(gf)">
-							</div>
-						</div>
-					</div>
-					<!--Money Line Team1 -->
-					<div class="col-md-2">
-						<div class="row">
-							<div class="col-md-11 col-md-offset-1">
-								<input type="text" class="form-control input-sm ng-pristine ng-untouched ng-valid" ng-model="gf.MoneyLine1" input-price-format="" ng-change="OnLineChange(gf, 'M', 'Adj', 1)" ng-disabled="LineIsActive(gf)">
-							</div>
-						</div>
-					</div>
-					<!--Total Team1 -->
-					<div class="col-md-2">
-						<div class="row">
-							<div class="col-md-6">
-								<input type="text" only-numbers="" class="form-control input-sm ng-pristine ng-untouched ng-valid" ng-model="gf.TotalPoints" ng-change="OnLineChange(gf, 'L', 'Pts', 1)" ng-disabled="LineIsActive(gf)">
-							</div>
-							<div class="col-md-6">
-								<input type="text" class="form-control input-sm ng-pristine ng-untouched ng-valid" ng-model="gf.TtlPtsAdj1" input-price-format="" ng-change="OnLineChange(gf, 'L', 'Adj', 1); clearTotal(gf, 3)" ng-disabled="LineIsActive(gf)">
-							</div>
-						</div>
-					</div>
-					<!--Team Total Team1 -->
-					<div class="col-md-2">
-						<div class="row">
-							<div class="col-md-6">
-								<input type="text" only-numbers="" class="form-control input-sm ng-pristine ng-untouched ng-valid" ng-model="gf.Team1TotalPoints" ng-change="OnLineChange(gf, 'E', 'Pts', 1)" ng-disabled="LineIsActive(gf)">
-							</div>
-							<div class="col-md-6">
-								<input type="text" class="form-control input-sm center-block ng-pristine ng-untouched ng-valid" ng-model="gf.Team1TtlPtsAdj1" input-price-format="" ng-change="OnLineChange(gf, 'E', 'Adj', 1); clearTotal(gf, 3)" ng-disabled="LineIsActive(gf)">
-								<input type="text" class="form-control input-sm center-block ng-pristine ng-untouched ng-valid" ng-model="gf.Team1TtlPtsAdj2" input-price-format="" ng-change="OnLineChange(gf, 'E', 'Adj', 3); clearTotal(gf, 3)" ng-disabled="LineIsActive(gf)">
-							</div>
-						</div>
-					</div>
-					<!--Actions -->
-					<div class="col-md-1" style=" padding-left:5px;">
-						<!-- ngIf: gf.CustProfile != '.' -->
-						<!-- ngIf: ClearShadeLinesBtnVisible(gf) --><button class="btn btn-sm btn-danger btn-block ng-binding ng-scope" ng-if="ClearShadeLinesBtnVisible(gf)" ng-click="ClearShadeLines('A', gf)" ng-bind="Translate('Remove Lines')" ng-disabled="LineIsActive(gf)">Remove Lines</button><!-- end ngIf: ClearShadeLinesBtnVisible(gf) -->
-					</div>
+S->PC5014: Tennis - 8754 Bernarda Pera -3½ -110 for Game 1100->1000
 
 
-				</div>
+M->PC5045: Baseball - 964 Tampa Bay Rays -148 for Game Price Is Fixed  Pitchers: A MANOAH - R (must start), Z EFLIN - R (must start) 7490->5060.81
 
-				<!--TEAM 2 LINES-->
-				<div class="row">
-					<div class="col-md-1 ng-binding" ng-bind="gf.Team2RotNum">546</div>
-					<div class="col-md-2 ng-binding" ng-bind="Translate(gf.Team2Id)">Miami Heat                              </div>
-					<!--Spread Team2 -->
-					<div class="col-md-2">
-						<div class="row">
-							<div class="col-md-6">
-								<input type="text" only-numbers="" class="form-control ng-pristine ng-untouched ng-valid" ng-model="gf.Spread2" ng-change="OnLineChange(gf, 'S', 'Pts', 2)" ng-disabled="LineIsActive(gf)">
-							</div>
-							<div class="col-md-6">
-								<input type="text" class="form-control ng-pristine ng-untouched ng-valid" ng-model="gf.SpreadAdj2" input-price-format="" ng-change="OnLineChange(gf, 'S', 'Adj', 2); clearSpread(gf, 1)" ng-disabled="LineIsActive(gf)">
-							</div>
-						</div>
-					</div>
-					<!--Money Line Team2 -->
-					<div class="col-md-2">
-						<div class="row">
-							<div class="col-md-11 col-md-offset-1">
-								<input type="text" class="form-control ng-pristine ng-untouched ng-valid" ng-model="gf.MoneyLine2" input-price-format="" ng-change="OnLineChange(gf, 'M', 'Adj', 2)" ng-disabled="LineIsActive(gf)">
-							</div>
-						</div>
-					</div>
-					<!--Total Team2 -->
-					<div class="col-md-2">
-						<div class="row">
-							<div class="col-md-6"> </div>
-							<div class="col-md-6">
-								<input type="text" class="form-control ng-pristine ng-untouched ng-valid" ng-model="gf.TtlPtsAdj2" input-price-format="" ng-change="OnLineChange(gf, 'L', 'Adj', 2); clearTotal(gf, 3)" ng-disabled="LineIsActive(gf)">
-							</div>
-						</div>
-					</div>
-					<!--Team Total Team2 -->
-					<div class="col-md-2">
-						<div class="row">
-							<div class="col-md-6">
-								<input type="text" only-numbers="" class="form-control input-sm ng-pristine ng-untouched ng-valid" ng-model="gf.Team2TotalPoints" ng-change="OnLineChange(gf, 'E', 'Pts', 2)" ng-disabled="LineIsActive(gf)">
-							</div>
-							<div class="col-md-6">
-								<input type="text" class="form-control input-sm center-block ng-pristine ng-untouched ng-valid" ng-model="gf.Team2TtlPtsAdj1" input-price-format="" ng-change="OnLineChange(gf, 'E', 'Adj', 2); clearTotal(gf, 3)" ng-disabled="LineIsActive(gf)">
-								<input type="text" class="form-control input-sm center-block ng-pristine ng-untouched ng-valid" ng-model="gf.Team2TtlPtsAdj2" input-price-format="" ng-change="OnLineChange(gf, 'E', 'Adj', 4); clearTotal(gf, 3)" ng-disabled="LineIsActive(gf)">
-							</div>
-						</div>
-					</div>
-					<!--Actions -->
-					<div class="col-md-1" style="padding-left:5px;">
-						<div ng-show="gf.CustProfile != '.'" class="ng-hide">
-							<label for="exampleInputEmail1" class="small">Shade type:</label>
-							<select id="exampleInputEmail1" class="form-control small ng-pristine ng-untouched ng-valid" ng-change="ChangeLineLinkedToStoreFlag(gf)" ng-model="gf.LinkedToStoreFlag" ng-disabled="LineIsActive(gf)">
-								<option value="Y" class="ng-binding">Soft</option>
-								<option value="N" class="ng-binding">Hard</option>
-							</select>
-						</div>
-					</div>
-				</div>
+M->PC5045: Baseball - 965 Chicago White Sox -137 for Game Price Is Fixed  Pitchers: L GIOLITO - R (must start), A FAEDO - R (must start) 7490->5467.15
 
-				<!--DRAW LINE-->
-				<div class="row">
-					<div class="col-md-5"></div>
-					<div class="col-md-2">
-						<!-- ngIf: SelectedSport.SportType == 'Soccer' -->
-					</div>
-				</div>
+L->PC3573: Baseball - 957 Philadelphia Phillies/Atlanta Braves over 9 -120 for Game Price Is Fixed  Pitchers: A NOLA - R (must start), D DODD - L (must start) 24000->20000
 
-				<!--
-							<div class="col-md-12">
-								<div class="row">
-									<div class="col-md-3">
-										<button class="btn btn-warning" ng-if="gf.CustProfile != '.'" ng-click="DeleteAgentGameLine(gf)" ng-bind="Translate('Remove Shaded Line')"></button>
-									</div>
-									<div class="col-md-3 col-centered" ng-if="1==0">
-										<div id="books-to-follow" class="form-group form-inline booksToFollow">
-											<select id="exampleInputEmail5" class="form-control custom-dropdown" ng-change="BooksToFollowChange(gf)" ng-options="bookItem.BookID as bookItem.Name for bookItem in gf.BooksToFollow" ng-model="gf.SpreadFollowBookId">
-												<option value="">NO AUTOMOVER</option>
-											</select>
-										</div>
-									</div>
+M->PC3574: Baseball - 964 Tampa Bay Rays -148 for Game Price Is Fixed  Pitchers: A MANOAH - R (must start), Z EFLIN - R (must start) 44400->30000
 
-									<div class="col-md-3 col-centered" ng-if="1==0">
-										<div id="books-to-follow" class="form-group form-inline booksToFollow">
-											<select id="exampleInputEmail5" class="form-control custom-dropdown" ng-change="BooksToFollowChange(gf)" ng-options="bookItem.BookID as bookItem.Name for bookItem in gf.BooksToFollow" ng-model="gf.MoneylineFollowBookId">
-												<option value="">NO AUTOMOVER</option>
-											</select>
-										</div>
-									</div>
+M->PC3574: Baseball - 965 Chicago White Sox -137 for Game Price Is Fixed  Pitchers: L GIOLITO - R (must start), A FAEDO - R (must start) 41100->30000
 
-									<div class="col-md-3 col-centered" ng-if="1==0">
-										<div id="books-to-follow" class="form-group form-inline books-to-follow">
-											<select id="exampleInputEmail5" class="form-control custom-dropdown" ng-change="BooksToFollowChange(gf)" ng-options="bookItem.BookID as bookItem.Name for bookItem in gf.BooksToFollow" ng-model="gf.TotalPointsFollowBookId">
-												<option value="">NO AUTOMOVER</option>
-											</select>
-										</div>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-md-3" ng-show="gf.CustProfile != '.'">
-										<div class="form-group form-inline">
-											<label for="exampleInputEmail1">Shade type:</label>
-											<select id="exampleInputEmail1" class="form-control custom-dropdown" ng-change="ChangeLineLinkedToStoreFlag(gf)" ng-model="gf.LinkedToStoreFlag">
-												<option value="Y">{{Translate('Soft')}}</option>
-												<option value="N">{{Translate('Hard')}}</option>
-											</select>
-										</div>
-									</div>
-								</div>
-							</div>
-				-->
+M->PC5036: Baseball - 955 San Diego Padres -173 for Game Price Is Fixed  Pitchers: B SNELL - L (must start), J IRVIN - R (must start) 25950->15000
 
-			</div><!-- end ngRepeat: gf in GamesInfo | filter:leagueFilter | orderBy: OrderByValue -->
-		</div>
+L->PC5036: Baseball - 959 New York Mets/Chicago Cubs over 7½ -116 for Game Price Is Fixed  Pitchers: C CARRASCO - R (must start), K HENDRICKS - R (must start) 11600->10000
+
+L->PC3585: Baseball - 957 Philadelphia Phillies/Atlanta Braves over 5 -116 for 1st 5 Innings Price Is Fixed  Pitchers: A NOLA - R (must start), D DODD - L (must start) 3480->3000
+
+L->PC3557: Baseball - 923 Oakland Athletics/Seattle Mariners over 8 -120 for Game Price Is Fixed  Pitchers: A PRUITT - R (must start), B MILLER - R (must start) 12000->10000
+
+S->PC4213: Tennis - 8456 Cameron Norrie -3 -107 for Game 1070->1000
+
+M->PC4213: Tennis - 8456 Cameron Norrie -194 for Game 9700->5000
+
+M->PC5014: Tennis - 8854 Alycia Parks  135 for Game 5000->6750
+
+M->PC5008: Tennis - 8353 Christopher OConnell  228 for Game 5000->11400
+
+M->PC5008: Soccer - 201857 Ath Bilbao  130 for Game 15000->19500
+
+GBSbot, [May 24, 2023 at 5:08:02 PM]:
+L->PC3574: Baseball - 903 St. Louis Cardinals/Cincinnati Reds under 11 -126 for Game Price Is Fixed  Pitchers: S MATZ - L (must start), B LIVELY - R (must start) 25200->20000
+
+M->PC5037: Baseball - 906 Washington Nationals  134  for Game Pitchers: R WEATHERS - L (action), T WILLIAMS - R (action) 30000->40200
+
+L->PC5045: Baseball - 903 St. Louis Cardinals/Cincinnati Reds under 11 -126 for Game Price Is Fixed  Pitchers: S MATZ - L (must start), B LIVELY - R (must start) 7490->5944.44
+
+M->PC5037: Baseball - 907 Los Angeles Dodgers  109  for Game Pitchers: T GONSOLIN - R (action), B ELDER - R (action) 40000->43600
+
+L->PC5037: Baseball - 903 St. Louis Cardinals/Cincinnati Reds over 11  115 for Game Pitchers: S MATZ - L (action), B LIVELY - R (action) 45000->51750
+
+M->PC3555: Baseball - 918 New York Yankees -139 for Game Price Is Fixed  Pitchers: T WELLS - R (must start), N CORTES - L (must start) 20850->15000
+
+M->PC5052: Baseball - 918 New York Yankees -139 for Game Price Is Fixed  Pitchers: T WELLS - R (must start), N CORTES - L (must start) 20850->15000
+
+L->PC5052: Baseball - 915 Toronto Blue Jays/Tampa Bay Rays under 8½ -118 for Game Price Is Fixed  Pitchers: Y KIKUCHI - L (must start), S McCLANAHAN - L (must start) 11800->10000
+
+L->PC3555: Baseball - 915 Toronto Blue Jays/Tampa Bay Rays under 8½ -118 for Game Price Is Fixed  Pitchers: Y KIKUCHI - L (must start), S McCLANAHAN - L (must start) 11800->10000
+
+L->PC3558: Baseball - 903 St. Louis Cardinals/Cincinnati Reds over 10½ -104 for Game Price Is Fixed  Pitchers: S MATZ - L (must start), B LIVELY - R (must start) 10400->10000
+
+
+M->PC5037: Baseball - 951 Arizona Diamondbacks  140  for Game Pitchers: R NELSON - R (must start), M STRAHM - L (must start) 30000->42000
+
+M->PC5037: Baseball - 960 Chicago Cubs  101  for Game Pitchers: K SENGA - R (must start), D SMYLY - L (must start) 15000->15150
+
+S->PC5037: Baseball - 955 San Diego Padres -1½  127 for Game Pitchers: Y DARVISH - R (must start), M GORE - L (must start) 20000->25400
+
+S->PC5037: Baseball - 968 New York Yankees -1½  142 for Game Pitchers: K BRADISH - R (must start), G COLE - R (must start) 20000->28400
+
+L->PC3607: Baseball - 959 New York Mets/Chicago Cubs under 4½ -118 for 1st 5 Innings Price Is Fixed  Pitchers: K SENGA - R (must start), D SMYLY - L (must start) 3540->3000
+
+L->PC5020: Baseball - 959 New York Mets/Chicago Cubs under 4½ -118 for 1st 5 Innings Price Is Fixed  Pitchers: K SENGA - R (must start), D SMYLY - L (must start) 5900->5000
+
+L->PC4226: Baseball - 977 Houston Astros/Milwaukee Brewers under 9½ -113 for Game Price Is Fixed  Pitchers: J FRANCE - R (must start), C REA - R (must start) 11300->10000
+
+M->PC5037: Baseball - 974 Seattle Mariners -169  for 1st 5 Innings Pitchers: L MEDINA - R (must start), M GONZALES - L (must start) 27040->16000
+
+M->PC5037: Baseball - 976 Pittsburgh Pirates  152  for 1st 5 Innings Pitchers: N EOVALDI - R (must start), R HILL - L (must start) 15000->22800
+
+L->PC5037: Baseball - 977 Houston Astros/Milwaukee Brewers over 9½  105 for Game Pitchers: J FRANCE - R (must start), C REA - R (must start) 10000->10500
+
+
+S->PC5024: Basketball - 543 Denver Nuggets  2½ -115 for 1st Half 8625->7500
+
+L->PC5041: Basketball - 543 Denver Nuggets/Los Angeles Lakers under 226 -119 for Game 23800->20000
+
+M->PC5049: Baseball - 907 Miami Marlins -104 for Game Price Is Fixed  Pitchers: E CABRERA - R (must start), C ANDERSON - R (must start) 15600->15000
+
+L->PC3563: Basketball - 543 Denver Nuggets/Los Angeles Lakers over 225½  111 for Game 5000->5550
+
+L->PC5029: Basketball - 543 Denver Nuggets/Los Angeles Lakers over 225½  111 for Game 1499->1663.89
+
+L->PC3563: Basketball - 543 Denver Nuggets/Los Angeles Lakers over 225½  111 for Game 10000->11100
+
+M->PC5049: Baseball - 907 Miami Marlins -104  for Game Pitchers: E CABRERA - R (must start), C ANDERSON - R (must start) 10400->10000
+
+M->PC5014: Baseball - 916 Los Angeles Angels -106 for Game Price Is Fixed  Pitchers: T HOUCK - R (must start), J BARRIA - R (must start) 15900->15000
+
+L->PC5063: Baseball - 915 Boston Red Sox/Los Angeles Angels under 5  107 for 1st 5 Innings Price Is Fixed  Pitchers: T HOUCK - R (must start), J BARRIA - R (must start) 3000->3210
+
+M->PC5063: Baseball - 915 Boston Red Sox  103 for Game Price Is Fixed  Pitchers: T HOUCK - R (must start), J BARRIA - R (must start) 5000->5150
+
+L->PC5045: Baseball - 917 Oakland Athletics/Seattle Mariners over 8 -115 for Game Price Is Fixed  Pitchers: K MULLER - L (must start), L CASTILLO - R (must start) 7490->6513.04
+
+M->PC5045: Baseball - 914 Kansas City Royals -109 for Game Price Is Fixed  Pitchers: M LORENZEN - R (must start), B SINGER - R (must start) 7490->6871.56
+
+L->PC3585: Baseball - 901 Arizona Diamondbacks/Philadelphia Phillies over 4½ -119 for 1st 5 Innings Price Is Fixed  Pitchers: T HENRY - L (must start), Z WHEELER - R (must start) 5950->5000
+
+M->PC5044: Baseball - 910 Cleveland Guardians -119 for Game Price Is Fixed  Pitchers: J LAMBERT - R (must start), H GADDIS - R (must start) 17850->15000
+
+M->PC3608: Baseball - 911 Toronto Blue Jays -110 for Game Price Is Fixed  Pitchers: C BASSITT - R (must start), T KELLEY - R (must start) 13750->12500
+
+L->PC3608: Baseball - 913 Detroit Tigers/Kansas City Royals under 8½ -106 for Game Price Is Fixed  Pitchers: M LORENZEN - R (must start), B SINGER - R (must start) 7950->7500
+
+S->PC3608: Basketball - 544 Los Angeles Lakers -2 -105 for 1st Half 15750->15000
+
+S->PC3608: Basketball - 544 Los Angeles Lakers -3 -108 for Game 16200->15000
+
+S->PC3582: Basketball - 544 Los Angeles Lakers -2 -115 for 1st Half 14375->12500
+
+M->PC3582: Baseball - 911 Toronto Blue Jays -110 for Game Pitchers: C BASSITT - R (action), T KELLEY - R (action) 11000->10000
+
+
+M->PC3587: Baseball - 957 Miami Marlins -101 for 1st 5 Innings Price Is Fixed  Pitchers: J LUZARDO - L (must start), A WOOD - L (must start) 15150->15000
+
+M->PC5036: Baseball - 958 San Francisco Giants -122 for Game Price Is Fixed  Pitchers: J LUZARDO - L (must start), A WOOD - L (must start) 18300->15000
+
+M->PC5036: Baseball - 956 St. Louis Cardinals  117 for Game Price Is Fixed  Pitchers: C KERSHAW - L (must start), J FLAHERTY - R (must start) 15000->17550
+
+M->PC3608: Hockey - 9 Dallas Stars -107 for Game 5350->5000
+
+M->PC5063: Hockey - 10 Vegas Golden Knights -113 for Game 2825->2500
+
+M->PC3608: Baseball - 958 San Francisco Giants -128 for Game Price Is Fixed  Pitchers: J LUZARDO - L (must start), A WOOD - L (must start) 38400->30000
+
+M->PC3608: Baseball - 978 San Diego Padres -160 for Game Price Is Fixed  Pitchers: C KLUBER - R (must start), M WACHA - R (must start) 32000->20000
+
+M->PC3582: Baseball - 958 San Francisco Giants -128 for Game Pitchers: J LUZARDO - L (action), A WOOD - L (action) 19200->15000
+
+M->PC3582: Baseball - 978 San Diego Padres -160 for Game Pitchers: C KLUBER - R (action), M WACHA - R (action) 16000->10000
+
+M->PC3582: Hockey - 9 Dallas Stars -107 for Game 5350->5000
+
+S->PC4213: Basketball - 541 Boston Celtics -4½ -108 for Game 5400->5000
+
+L->PC3557: Baseball - 979 Cleveland Guardians/New York Mets under 7½  104 for Game Price Is Fixed  Pitchers: S BIEBER - R (must start), J VERLANDER - R (must start) 10000->10400
+
+L->PC3580: Baseball - 979 Cleveland Guardians/New York Mets under 7½  104 for Game Price Is Fixed  Pitchers: S BIEBER - R (must start), J VERLANDER - R (must start) 10000->10400
+
+L->PC3609: Baseball - 979 Cleveland Guardians/New York Mets under 7½  104 for Game Price Is Fixed  Pitchers: S BIEBER - R (must start), J VERLANDER - R (must start) 10000->10400
+
+L->PC5039: Baseball - 979 Cleveland Guardians/New York Mets under 7½  104 for Game Price Is Fixed  Pitchers: S BIEBER - R (must start), J VERLANDER - R (must start) 10000->10400
+
+L->PC5052: Baseball - 979 Cleveland Guardians/New York Mets under 7½  104 for Game Price Is Fixed  Pitchers: S BIEBER - R (must start), J VERLANDER - R (must start) 10000->10400
+
+L->PC3555: Baseball - 979 Cleveland Guardians/New York Mets under 7½  104 for Game Price Is Fixed  Pitchers: S BIEBER - R (must start), J VERLANDER - R (must start) 10000->10400
+
+L->PC5030: Baseball - 979 Cleveland Guardians/New York Mets under 4 -115 for 1st 5 Innings Price Is Fixed  Pitchers: S BIEBER - R (must start), J VERLANDER - R (must start) 3450->3000
