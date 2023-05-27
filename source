@@ -1,179 +1,242 @@
-
-M->PC5014: Tennis - 8754 Bernarda Pera -190 for Game 9500->5000
-
-
-S->PC5008: Soccer - 200129 Chelsea  1 -120 for Game 18000->15000
-
-S->PC5014: Tennis - 8754 Bernarda Pera -3½ -110 for Game 1100->1000
-
-
-M->PC5045: Baseball - 964 Tampa Bay Rays -148 for Game Price Is Fixed  Pitchers: A MANOAH - R (must start), Z EFLIN - R (must start) 7490->5060.81
-
-M->PC5045: Baseball - 965 Chicago White Sox -137 for Game Price Is Fixed  Pitchers: L GIOLITO - R (must start), A FAEDO - R (must start) 7490->5467.15
-
-L->PC3573: Baseball - 957 Philadelphia Phillies/Atlanta Braves over 9 -120 for Game Price Is Fixed  Pitchers: A NOLA - R (must start), D DODD - L (must start) 24000->20000
-
-M->PC3574: Baseball - 964 Tampa Bay Rays -148 for Game Price Is Fixed  Pitchers: A MANOAH - R (must start), Z EFLIN - R (must start) 44400->30000
-
-M->PC3574: Baseball - 965 Chicago White Sox -137 for Game Price Is Fixed  Pitchers: L GIOLITO - R (must start), A FAEDO - R (must start) 41100->30000
-
-M->PC5036: Baseball - 955 San Diego Padres -173 for Game Price Is Fixed  Pitchers: B SNELL - L (must start), J IRVIN - R (must start) 25950->15000
-
-L->PC5036: Baseball - 959 New York Mets/Chicago Cubs over 7½ -116 for Game Price Is Fixed  Pitchers: C CARRASCO - R (must start), K HENDRICKS - R (must start) 11600->10000
-
-L->PC3585: Baseball - 957 Philadelphia Phillies/Atlanta Braves over 5 -116 for 1st 5 Innings Price Is Fixed  Pitchers: A NOLA - R (must start), D DODD - L (must start) 3480->3000
-
-L->PC3557: Baseball - 923 Oakland Athletics/Seattle Mariners over 8 -120 for Game Price Is Fixed  Pitchers: A PRUITT - R (must start), B MILLER - R (must start) 12000->10000
-
-S->PC4213: Tennis - 8456 Cameron Norrie -3 -107 for Game 1070->1000
-
-M->PC4213: Tennis - 8456 Cameron Norrie -194 for Game 9700->5000
-
-M->PC5014: Tennis - 8854 Alycia Parks  135 for Game 5000->6750
-
-M->PC5008: Tennis - 8353 Christopher OConnell  228 for Game 5000->11400
-
-M->PC5008: Soccer - 201857 Ath Bilbao  130 for Game 15000->19500
-
-L->PC3574: Baseball - 903 St. Louis Cardinals/Cincinnati Reds under 11 -126 for Game Price Is Fixed  Pitchers: S MATZ - L (must start), B LIVELY - R (must start) 25200->20000
-
-M->PC5037: Baseball - 906 Washington Nationals  134  for Game Pitchers: R WEATHERS - L (action), T WILLIAMS - R (action) 30000->40200
-
-L->PC5045: Baseball - 903 St. Louis Cardinals/Cincinnati Reds under 11 -126 for Game Price Is Fixed  Pitchers: S MATZ - L (must start), B LIVELY - R (must start) 7490->5944.44
-
-M->PC5037: Baseball - 907 Los Angeles Dodgers  109  for Game Pitchers: T GONSOLIN - R (action), B ELDER - R (action) 40000->43600
-
-L->PC5037: Baseball - 903 St. Louis Cardinals/Cincinnati Reds over 11  115 for Game Pitchers: S MATZ - L (action), B LIVELY - R (action) 45000->51750
-
-M->PC3555: Baseball - 918 New York Yankees -139 for Game Price Is Fixed  Pitchers: T WELLS - R (must start), N CORTES - L (must start) 20850->15000
-
-M->PC5052: Baseball - 918 New York Yankees -139 for Game Price Is Fixed  Pitchers: T WELLS - R (must start), N CORTES - L (must start) 20850->15000
-
-L->PC5052: Baseball - 915 Toronto Blue Jays/Tampa Bay Rays under 8½ -118 for Game Price Is Fixed  Pitchers: Y KIKUCHI - L (must start), S McCLANAHAN - L (must start) 11800->10000
-
-L->PC3555: Baseball - 915 Toronto Blue Jays/Tampa Bay Rays under 8½ -118 for Game Price Is Fixed  Pitchers: Y KIKUCHI - L (must start), S McCLANAHAN - L (must start) 11800->10000
-
-L->PC3558: Baseball - 903 St. Louis Cardinals/Cincinnati Reds over 10½ -104 for Game Price Is Fixed  Pitchers: S MATZ - L (must start), B LIVELY - R (must start) 10400->10000
-
-
-M->PC5037: Baseball - 951 Arizona Diamondbacks  140  for Game Pitchers: R NELSON - R (must start), M STRAHM - L (must start) 30000->42000
-
-M->PC5037: Baseball - 960 Chicago Cubs  101  for Game Pitchers: K SENGA - R (must start), D SMYLY - L (must start) 15000->15150
-
-S->PC5037: Baseball - 955 San Diego Padres -1½  127 for Game Pitchers: Y DARVISH - R (must start), M GORE - L (must start) 20000->25400
-
-S->PC5037: Baseball - 968 New York Yankees -1½  142 for Game Pitchers: K BRADISH - R (must start), G COLE - R (must start) 20000->28400
-
-L->PC3607: Baseball - 959 New York Mets/Chicago Cubs under 4½ -118 for 1st 5 Innings Price Is Fixed  Pitchers: K SENGA - R (must start), D SMYLY - L (must start) 3540->3000
-
-L->PC5020: Baseball - 959 New York Mets/Chicago Cubs under 4½ -118 for 1st 5 Innings Price Is Fixed  Pitchers: K SENGA - R (must start), D SMYLY - L (must start) 5900->5000
-
-L->PC4226: Baseball - 977 Houston Astros/Milwaukee Brewers under 9½ -113 for Game Price Is Fixed  Pitchers: J FRANCE - R (must start), C REA - R (must start) 11300->10000
-
-M->PC5037: Baseball - 974 Seattle Mariners -169  for 1st 5 Innings Pitchers: L MEDINA - R (must start), M GONZALES - L (must start) 27040->16000
-
-M->PC5037: Baseball - 976 Pittsburgh Pirates  152  for 1st 5 Innings Pitchers: N EOVALDI - R (must start), R HILL - L (must start) 15000->22800
-
-L->PC5037: Baseball - 977 Houston Astros/Milwaukee Brewers over 9½  105 for Game Pitchers: J FRANCE - R (must start), C REA - R (must start) 10000->10500
-
-
-S->PC5024: Basketball - 543 Denver Nuggets  2½ -115 for 1st Half 8625->7500
-
-L->PC5041: Basketball - 543 Denver Nuggets/Los Angeles Lakers under 226 -119 for Game 23800->20000
-
-M->PC5049: Baseball - 907 Miami Marlins -104 for Game Price Is Fixed  Pitchers: E CABRERA - R (must start), C ANDERSON - R (must start) 15600->15000
-
-L->PC3563: Basketball - 543 Denver Nuggets/Los Angeles Lakers over 225½  111 for Game 5000->5550
-
-L->PC5029: Basketball - 543 Denver Nuggets/Los Angeles Lakers over 225½  111 for Game 1499->1663.89
-
-L->PC3563: Basketball - 543 Denver Nuggets/Los Angeles Lakers over 225½  111 for Game 10000->11100
-
-M->PC5049: Baseball - 907 Miami Marlins -104  for Game Pitchers: E CABRERA - R (must start), C ANDERSON - R (must start) 10400->10000
-
-M->PC5014: Baseball - 916 Los Angeles Angels -106 for Game Price Is Fixed  Pitchers: T HOUCK - R (must start), J BARRIA - R (must start) 15900->15000
-
-L->PC5063: Baseball - 915 Boston Red Sox/Los Angeles Angels under 5  107 for 1st 5 Innings Price Is Fixed  Pitchers: T HOUCK - R (must start), J BARRIA - R (must start) 3000->3210
-
-M->PC5063: Baseball - 915 Boston Red Sox  103 for Game Price Is Fixed  Pitchers: T HOUCK - R (must start), J BARRIA - R (must start) 5000->5150
-
-L->PC5045: Baseball - 917 Oakland Athletics/Seattle Mariners over 8 -115 for Game Price Is Fixed  Pitchers: K MULLER - L (must start), L CASTILLO - R (must start) 7490->6513.04
-
-M->PC5045: Baseball - 914 Kansas City Royals -109 for Game Price Is Fixed  Pitchers: M LORENZEN - R (must start), B SINGER - R (must start) 7490->6871.56
-
-L->PC3585: Baseball - 901 Arizona Diamondbacks/Philadelphia Phillies over 4½ -119 for 1st 5 Innings Price Is Fixed  Pitchers: T HENRY - L (must start), Z WHEELER - R (must start) 5950->5000
-
-M->PC5044: Baseball - 910 Cleveland Guardians -119 for Game Price Is Fixed  Pitchers: J LAMBERT - R (must start), H GADDIS - R (must start) 17850->15000
-
-M->PC3608: Baseball - 911 Toronto Blue Jays -110 for Game Price Is Fixed  Pitchers: C BASSITT - R (must start), T KELLEY - R (must start) 13750->12500
-
-L->PC3608: Baseball - 913 Detroit Tigers/Kansas City Royals under 8½ -106 for Game Price Is Fixed  Pitchers: M LORENZEN - R (must start), B SINGER - R (must start) 7950->7500
-
-S->PC3608: Basketball - 544 Los Angeles Lakers -2 -105 for 1st Half 15750->15000
-
-S->PC3608: Basketball - 544 Los Angeles Lakers -3 -108 for Game 16200->15000
-
-S->PC3582: Basketball - 544 Los Angeles Lakers -2 -115 for 1st Half 14375->12500
-
-M->PC3582: Baseball - 911 Toronto Blue Jays -110 for Game Pitchers: C BASSITT - R (action), T KELLEY - R (action) 11000->10000
-
-
-M->PC3587: Baseball - 957 Miami Marlins -101 for 1st 5 Innings Price Is Fixed  Pitchers: J LUZARDO - L (must start), A WOOD - L (must start) 15150->15000
-
-M->PC5036: Baseball - 958 San Francisco Giants -122 for Game Price Is Fixed  Pitchers: J LUZARDO - L (must start), A WOOD - L (must start) 18300->15000
-
-M->PC5036: Baseball - 956 St. Louis Cardinals  117 for Game Price Is Fixed  Pitchers: C KERSHAW - L (must start), J FLAHERTY - R (must start) 15000->17550
-
-M->PC3608: Hockey - 9 Dallas Stars -107 for Game 5350->5000
-
-M->PC5063: Hockey - 10 Vegas Golden Knights -113 for Game 2825->2500
-
-M->PC3608: Baseball - 958 San Francisco Giants -128 for Game Price Is Fixed  Pitchers: J LUZARDO - L (must start), A WOOD - L (must start) 38400->30000
-
-M->PC3608: Baseball - 978 San Diego Padres -160 for Game Price Is Fixed  Pitchers: C KLUBER - R (must start), M WACHA - R (must start) 32000->20000
-
-M->PC3582: Baseball - 958 San Francisco Giants -128 for Game Pitchers: J LUZARDO - L (action), A WOOD - L (action) 19200->15000
-
-M->PC3582: Baseball - 978 San Diego Padres -160 for Game Pitchers: C KLUBER - R (action), M WACHA - R (action) 16000->10000
-
-M->PC3582: Hockey - 9 Dallas Stars -107 for Game 5350->5000
-
-S->PC4213: Basketball - 541 Boston Celtics -4½ -108 for Game 5400->5000
-
-L->PC3557: Baseball - 979 Cleveland Guardians/New York Mets under 7½  104 for Game Price Is Fixed  Pitchers: S BIEBER - R (must start), J VERLANDER - R (must start) 10000->10400
-
-L->PC3580: Baseball - 979 Cleveland Guardians/New York Mets under 7½  104 for Game Price Is Fixed  Pitchers: S BIEBER - R (must start), J VERLANDER - R (must start) 10000->10400
-
-L->PC3609: Baseball - 979 Cleveland Guardians/New York Mets under 7½  104 for Game Price Is Fixed  Pitchers: S BIEBER - R (must start), J VERLANDER - R (must start) 10000->10400
-
-L->PC5039: Baseball - 979 Cleveland Guardians/New York Mets under 7½  104 for Game Price Is Fixed  Pitchers: S BIEBER - R (must start), J VERLANDER - R (must start) 10000->10400
-
-L->PC5052: Baseball - 979 Cleveland Guardians/New York Mets under 7½  104 for Game Price Is Fixed  Pitchers: S BIEBER - R (must start), J VERLANDER - R (must start) 10000->10400
-
-L->PC3555: Baseball - 979 Cleveland Guardians/New York Mets under 7½  104 for Game Price Is Fixed  Pitchers: S BIEBER - R (must start), J VERLANDER - R (must start) 10000->10400
-
-L->PC5030: Baseball - 979 Cleveland Guardians/New York Mets under 4 -115 for 1st 5 Innings Price Is Fixed  Pitchers: S BIEBER - R (must start), J VERLANDER - R (must start) 3450->3000
-
-
-L->PC5052: Basketball - 541 Boston Celtics/Miami Heat under 215½ -110 for Game 11000->10000
-
-L->PC3555: Basketball - 541 Boston Celtics/Miami Heat under 215½ -110 for Game 11000->10000
-
-L->PC5063: Basketball - 541 Boston Celtics/Miami Heat under 215 -119 for Game 11900->10000
-
-L->PC5014: Basketball - 541 Boston Celtics/Miami Heat over 213 -104 for Game 10400->10000
-
-L->PC3563: Basketball - 541 Boston Celtics/Miami Heat over 213 -104 for Game 10400->10000
-
-S->PC5026: Basketball - 542 Miami Heat  3½ -101 for 1st Half 12625->12500
-
-M->PC5066: Basketball - 542 Miami Heat  146 for Game 100->146
-
-S->PC5015: Basketball - 542 Miami Heat  5 -119 for Game 29750->25000
-
-S->PC5029: Basketball - 542 Miami Heat  3½  109 for 1st Half 1999->2178.91
-
-S->PC5037: Basketball - 541 Boston Celtics -5  110 for Game 25000->27500
-
-S->PC4202: Basketball - 542 Miami Heat  3½  109 for 1st Half 12500->13625
+<div class="panel panel-default" id="agPos.Hockey              .NHL                           ">
+              <div class="row">
+                <div class="col-xs-3 bg-tertiary-color custom-table-title">
+                  <a class="ng-binding" data-target="#subSport_0" data-toggle="collapse" data-parent="#gamesAccordion">
+                    <span ng-bind="sSs.SportType + ' ' + sSs.SportSubType" class="ng-binding">Hockey               NHL                           </span>
+                  </a>
+                </div>
+                <div class="col-xs-9 custom-table-periods">
+                  <select ng-show="IsMobile" ng-options="aP as aP.PeriodDescription for aP in sSs.AvailablePeriods" ng-model="sSs.SelectedPeriod" ng-change="LoadGamePeriodInfoFromGamePeriod(sSs, sSs.SelectedPeriod)" class="ng-pristine ng-untouched ng-valid ng-hide"><option value="object:134" label="Game                " selected="selected">Game                </option></select>
+                  <!-- ngRepeat: aP in sSs.AvailablePeriods --><div ng-show="!IsMobile" ng-repeat="aP in sSs.AvailablePeriods" class="cursor-pointer ng-scope active" ng-click="LoadGamePeriodInfoFromGamePeriod(sSs, aP)" ng-class="{ 'active': aP.Selected }" id="btn.Hockey              .NHL                           .0">
+                    <span class="ng-binding">Game                 <i class="fa fa-chevron-right"></i></span>
+                  </div><!-- end ngRepeat: aP in sSs.AvailablePeriods -->
+                  <span class="chckbx float-left">
+                    <input type="checkbox" id="allPeriods_0" ng-model="sSs.AllPeriods" ng-change="LoadGamePeriodInfoFromGamePeriod(sSs, sSs.AvailablePeriods[0], true)" class="form-control ng-pristine ng-untouched ng-valid">
+                    <label for="allPeriods_0" ng-bind="Translate('All')" class="ng-binding">All</label>
+                  </span>
+                </div>
+              </div>
+
+              <div style="height: auto;" class="panel-collapse in" id="subSport_0">
+
+
+                <div class="wagertypetitle" ng-init="tabDisplay = 1">
+                  <div class="row">
+                    <div class="col-sm-12 col-lg-12 col-xl-12 no-padding-right">
+                      <div class="row">
+                        <div class="col-xs-3 no-padding"></div>
+                        <div class="col-xs-9 no-padding">
+
+                          <div class="row">
+                            <div class="col-xs-12 col-lg-4 text-center wagertypetitle-divider no-padding-left pr-3" ng-show="IsMobile == false || tabDisplay == 1">
+
+                              <div class="row d-flex">
+                                <div class="col-xs-2 p-0 d-flex" ng-click="tabDisplay = tabDisplay == 1 ? 3 : tabDisplay - 1">
+                                  <i class="fa fa-caret-left px-2 align-self-center hidden-lg"></i>
+                                </div>
+                                <div class="col-xs-8 text-align-center ng-binding" ng-bind="Translate('Spread')">Spread</div>
+                                <div class="col-xs-2 p-0 d-flex justify-content-end" ng-click="tabDisplay = tabDisplay < 3 ? tabDisplay + 1 : 1">
+                                  <i class="fa fa-caret-right px-2 align-self-center hidden-lg"></i>
+                                </div>
+                              </div>
+                              <!-- ngIf: showProfit -->
+                              <!-- ngIf: !showProfit --><div class="row ng-scope" ng-if="!showProfit">
+                                <div class="col-xs-4 no-padding text-right">
+                                  <span class="line_limit ng-binding" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="">Min/Max</span>
+                                </div>
+                                <div class="col-xs-4 no-padding text-right">
+                                  <span class="line_limit ng-binding" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Shows the volume on both sides in the game. The volume is calculated as the lower of the risk or the win amount on a wager">Volume</span>
+                                </div>
+                                <div class="col-xs-4 no-padding text-right">
+                                  <span class="line_limit ng-binding" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Shows the actual number of wagers that have been placed on both sides">Count</span>
+                                </div>
+                              </div><!-- end ngIf: !showProfit -->
+                            </div>
+                            <div class="col-xs-12 col-lg-4 text-center wagertypetitle-divider no-padding-left pr-3" ng-show="IsMobile == false || tabDisplay == 2">
+                              <div class="row d-flex">
+                                <div class="col-xs-2 p-0 d-flex" ng-click="tabDisplay = tabDisplay == 1 ? 3 : tabDisplay - 1">
+                                  <i class="fa fa-caret-left px-2 align-self-center hidden-lg"></i>
+                                </div>
+                                <div class="col-xs-8 text-align-center ng-binding" ng-bind="Translate('Money Line')">Money Line</div>
+                                <div class="col-xs-2 p-0 d-flex justify-content-end" ng-click="tabDisplay = tabDisplay < 3 ? tabDisplay + 1 : 1">
+                                  <i class="fa fa-caret-right px-2 align-self-center hidden-lg"></i>
+                                </div>
+                              </div>
+                              <!-- ngIf: showProfit -->
+                              <!-- ngIf: !showProfit --><div class="row ng-scope" ng-if="!showProfit">
+                                <div class="col-xs-4 no-padding text-right">
+                                  <span class="line_limit ng-binding" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="">Min/Max</span>
+                                </div>
+                                <div class="col-xs-4 no-padding text-right">
+                                  <span class="line_limit ng-binding" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Shows the volume on both sides in the game. The volume is calculated as the lower of the risk or the win amount on a wager">Volume</span>
+                                </div>
+                                <div class="col-xs-4 no-padding text-right">
+                                  <span class="line_limit ng-binding" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Shows the actual number of wagers that have been placed on both sides">Count</span>
+                                </div>
+                              </div><!-- end ngIf: !showProfit -->
+                            </div>
+                            <div class="col-xs-12 col-lg-4 text-center wagertypetitle-divider no-padding-left pr-3" ng-show="IsMobile == false || tabDisplay == 3">
+                              <div class="row d-flex">
+                                <div class="col-xs-2 p-0 d-flex" ng-click="tabDisplay = tabDisplay == 1 ? 3 : tabDisplay - 1">
+                                  <i class="fa fa-caret-left px-2 align-self-center hidden-lg"></i>
+                                </div>
+                                <div class="col-xs-8 text-align-center ng-binding" ng-bind="Translate('Total')">Total</div>
+                                <div class="col-xs-2 p-0 d-flex justify-content-end" ng-click="tabDisplay = tabDisplay < 3 ? tabDisplay + 1 : 1">
+                                  <i class="fa fa-caret-right px-2 align-self-center hidden-lg"></i>
+                                </div>
+                              </div>
+                              <!-- ngIf: showProfit -->
+                              <!-- ngIf: !showProfit --><div class="row ng-scope" ng-if="!showProfit">
+                                <div class="col-xs-4 no-padding text-right">
+                                  <span class="line_limit ng-binding" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="">Min/Max</span>
+                                </div>
+                                <div class="col-xs-4 no-padding text-right">
+                                  <span class="line_limit ng-binding" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Shows the volume on both sides in the game. The volume is calculated as the lower of the risk or the win amount on a wager">Volume</span>
+                                </div>
+                                <div class="col-xs-4 no-padding text-right">
+                                  <span class="line_limit ng-binding" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Shows the actual number of wagers that have been placed on both sides">Count</span>
+                                </div>
+                              </div><!-- end ngIf: !showProfit -->
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+                <ul class="bettinglines">
+
+                  <!-- ngRepeat: pG in sSs.PositionByGame | filter: FilterGames --><li ng-repeat="pG in sSs.PositionByGame | filter: FilterGames" class="ng-scope">
+
+                    <!-- ngIf: pG.IsTitle --><div class="gameTitle text-center-xs ng-binding ng-scope" ng-if="pG.IsTitle" ng-bind="FormatDateTime(pG.GameDateString, 11, null, null)">Sat 27 May</div><!-- end ngIf: pG.IsTitle -->
+                    <!-- ngIf: !pG.IsTitle -->
+                  </li><!-- end ngRepeat: pG in sSs.PositionByGame | filter: FilterGames --><li ng-repeat="pG in sSs.PositionByGame | filter: FilterGames" class="ng-scope">
+
+                    <!-- ngIf: pG.IsTitle -->
+                    <!-- ngIf: !pG.IsTitle --><div class="gameLineInfo ng-scope" ng-if="!pG.IsTitle" ng-class="{'bg-light-gray text-grayout' : pG.FinishedGame == 1}">
+                      <div class="row">
+
+                        <div class="game-line col-sm-12 col-lg-12 col-xl-12 no-padding-right">
+                          <p class="bg-black text-white p-2 w-100 ng-binding" style="display: block"><b class="ng-binding">Game                </b>&nbsp;SAT 5/27 - 8:05:00 PM (EST)</p>
+                          <div class="row">
+                            <div class="col-xs-3 no-padding">
+                              <span ng-bind="DisplayTeam(pG.Team1Data)" class="ng-binding">21 - Dallas Stars                            </span>
+                            </div>
+
+                            <div class="col-xs-9 no-padding">
+                              <div class="row">
+                                <div class="col-xs-12 col-lg-4 wagertypetitle-divider-data no-padding-left" ng-show="IsMobile == false || tabDisplay == 1">
+                                  <!-- ngIf: showProfit -->
+                                  <!-- ngIf: !showProfit --><div class="row ng-scope" ng-if="!showProfit">
+                                    <div class="col-xs-4 no-padding text-right ng-binding" ng-bind="FormatMaxMin(pG.Team1Data.spreadData.MinLine, pG.Team1Data.spreadData.MaxLine, pG.Team1Data.spreadData.SpreadCount)">+1½</div>
+                                    <div class="col-xs-4 no-padding text-right cursor-pointer ng-binding" ng-bind="CalculateVolume(pG.Team1Data.spreadData, 'S')" ng-click="GetGameActionByLine(pG.Team1Data.spreadData, 'S', 'Spread', sSs.PeriodInfo)" onclick="return false" data-toggle="modal" data-target="#ModalAgentPos" ng-class="{'num_zero' : pG.Team1Data.spreadData.SpreadCount == 0}">500</div>
+                                    <div class="col-lg-4 no-padding text-right ng-binding" ng-bind="CalculateCount(pG.Team1Data.spreadData, 'S')">1</div>
+                                  </div><!-- end ngIf: !showProfit -->
+                                </div>
+                                <div class="col-xs-12 col-lg-4 wagertypetitle-divider-data no-padding-left" ng-show="IsMobile == false || tabDisplay == 2">
+                                  <!-- ngIf: showProfit -->
+                                  <!-- ngIf: !showProfit --><div class="row ng-scope" ng-if="!showProfit">
+                                    <div class="col-xs-4 no-padding text-right ng-binding" ng-bind="FormatMaxMin(pG.Team1Data.moneyData.MinLine, pG.Team1Data.moneyData.MaxLine, pG.Team1Data.moneyData.MoneyLineCount)">+120</div>
+                                    <div class="col-xs-4 no-padding text-right cursor-pointer ng-binding" ng-bind="CalculateVolume(pG.Team1Data.moneyData, 'M')" ng-click="GetGameActionByLine(pG.Team1Data.moneyData, 'M', 'Money Line', sSs.PeriodInfo)" data-toggle="modal" data-target="#ModalAgentPos" ng-class="{'num_zero' : pG.Team1Data.moneyData.MoneyLineCount == 0}">500</div>
+                                    <div class="col-xs-4 no-padding text-right ng-binding" ng-bind="CalculateCount(pG.Team1Data.moneyData, 'M')">1</div>
+                                  </div><!-- end ngIf: !showProfit -->
+                                </div>
+                                <div class="col-xs-12 col-lg-4 wagertypetitle-divider-data no-padding-left" ng-show="IsMobile == false || tabDisplay == 3">
+                                  <!-- ngIf: showProfit -->
+                                  <!-- ngIf: !showProfit --><div class="row ng-scope" ng-if="!showProfit">
+                                    <div class="col-xs-4 no-padding text-right ng-binding" ng-bind="FormatMaxMin(pG.Team1Data.totalData.MinLine, pG.Team1Data.totalData.MaxLine, pG.Team1Data.totalData.TotalPointsCount, 'O')">-</div>
+                                    <div class="col-xs-4 no-padding text-right cursor-pointer ng-binding num_zero" ng-bind="CalculateVolume(pG.Team1Data.totalData, 'L')" ng-click="GetGameActionByLine(pG.Team1Data.totalData, 'L', 'Total', sSs.PeriodInfo)" onclick="return false" data-toggle="modal" data-target="#ModalAgentPos" ng-class="{'num_zero' : pG.Team1Data.totalData.TotalPointsCount == 0}">0</div>
+                                    <div class="col-lg-4 no-padding text-right ng-binding" ng-bind="CalculateCount(pG.Team1Data.totalData, 'L')">0</div>
+                                  </div><!-- end ngIf: !showProfit -->
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="row">
+
+                            <div class="col-xs-3 no-padding">
+                              <span ng-bind="DisplayTeam(pG.Team2Data)" class="ng-binding">22 - Vegas Golden Knights                    </span>
+                            </div>
+
+                            <div class="col-xs-9 no-padding">
+                              <div class="row">
+                                <div class="col-xs-12 col-lg-4 wagertypetitle-divider-data no-padding-left" ng-show="IsMobile == false || tabDisplay == 1">
+                                  <!-- ngIf: showProfit -->
+                                  <!-- ngIf: !showProfit --><div class="row ng-scope" ng-if="!showProfit">
+                                    <div class="col-xs-4 no-padding text-right ng-binding" ng-bind="FormatMaxMin(pG.Team2Data.spreadData.MinLine, pG.Team2Data.spreadData.MaxLine, pG.Team2Data.spreadData.SpreadCount)">-1½</div>
+                                    <div class="col-xs-4 no-padding text-right cursor-pointer ng-binding" ng-bind="CalculateVolume(pG.Team2Data.spreadData, 'S')" ng-click="GetGameActionByLine(pG.Team2Data.spreadData, 'S', 'Spread', sSs.PeriodInfo)" href="" onclick="return false" data-toggle="modal" data-target="#ModalAgentPos" ng-class="{'num_zero' : pG.Team2Data.spreadData.SpreadCount == 0}">500</div>
+                                    <div class="col-xs-4 no-padding text-right ng-binding" ng-bind="CalculateCount(pG.Team2Data.spreadData, 'S')">1</div>
+                                  </div><!-- end ngIf: !showProfit -->
+                                </div>
+                                <div class="col-xs-12 col-lg-4 wagertypetitle-divider-data no-padding-left" ng-show="IsMobile == false || tabDisplay == 2">
+                                  <!-- ngIf: showProfit -->
+                                  <!-- ngIf: !showProfit --><div class="row ng-scope" ng-if="!showProfit">
+                                    <div class="col-xs-4 no-padding text-right ng-binding" ng-bind="FormatMaxMin(pG.Team2Data.moneyData.MinLine, pG.Team2Data.moneyData.MaxLine, pG.Team2Data.moneyData.MoneyLineCount)">-</div>
+                                    <div class="col-xs-4 col-lg-4 no-padding text-right cursor-pointer ng-binding num_zero" ng-bind="CalculateVolume(pG.Team2Data.moneyData, 'M')" onclick="return false" data-toggle="modal" data-target="#ModalAgentPos" ng-class="{'num_zero' : pG.Team2Data.moneyData.MoneyLineCount == 0}" ng-click="GetGameActionByLine(pG.Team2Data.moneyData, 'M', 'Money Line', sSs.PeriodInfo)">0</div>
+                                    <div class="col-lg-4 no-padding text-right ng-binding" ng-bind="CalculateCount(pG.Team2Data.moneyData, 'M')">0</div>
+                                  </div><!-- end ngIf: !showProfit -->
+                                </div>
+                                <div class="col-xs-12 col-lg-4 wagertypetitle-divider-data no-padding-left" ng-show="IsMobile == false || tabDisplay == 3">
+                                  <!-- ngIf: showProfit -->
+                                  <!-- ngIf: !showProfit --><div class="row ng-scope" ng-if="!showProfit">
+                                    <div class="col-xs-4 no-padding text-right ng-binding" ng-bind="FormatMaxMin(pG.Team2Data.totalData.MinLine, pG.Team2Data.totalData.MaxLine, pG.Team2Data.totalData.TotalPointsCount, 'U')">-</div>
+                                    <div class="col-xs-4 no-padding text-right cursor-pointer ng-binding num_zero" ng-bind="CalculateVolume(pG.Team2Data.totalData, 'L')" ng-click="GetGameActionByLine(pG.Team2Data.totalData, 'L', 'Total', sSs.PeriodInfo)" onclick="return false" data-toggle="modal" data-target="#ModalAgentPos" ng-class="{'num_zero' : pG.Team2Data.totalData.TotalPointsCount == 0}">0</div>
+                                    <div class="col-xs-4 no-padding text-right ng-binding" ng-bind="CalculateCount(pG.Team2Data.totalData, 'L')">0</div>
+                                  </div><!-- end ngIf: !showProfit -->
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+
+                          <div class="row ng-hide" ng-show="pG.DrawData">
+
+                            <div class="col-xs-3 no-padding">
+                              <span ng-bind="DisplayTeam(pG.DrawData)" class="ng-binding"></span>
+                              <!--i style="color: #2A6D91;"></i-->
+                            </div>
+
+                            <div class="col-xs-9 no-padding">
+                              <div class="row">
+                                <div class="col-xs-12 col-lg-4" ng-show="IsMobile == false || tabDisplay == 1">
+                                  <div class="row">
+                                    <div class="col-sm-6 col-lg-4 no-padding-left text-right"></div>
+
+                                    <div class="col-xs-12 col-sm-6 col-lg-4 no-padding-left text-right"><span class="num_neg"></span></div>
+                                    <div class="col-lg-4 no-padding-left text-right"><span class="num_neg"></span></div>
+
+                                  </div>
+                                </div>
+                                <div class="col-xs-12 col-lg-4 no-padding-left" ng-show="IsMobile == false || tabDisplay == 2">
+                                  <!-- ngIf: showProfit -->
+                                  <!-- ngIf: !showProfit --><div class="row ng-scope" ng-if="!showProfit">
+                                    <div class="col-xs-4 no-padding text-right ng-binding" ng-bind="FormatMaxMin(pG.DrawData.MinLine, pG.DrawData.MaxLine, pG.DrawData.MoneyLineCount)">-</div>
+                                    <div class="col-xs-4 no-padding text-right cursor-pointer ng-binding" ng-bind="CalculateVolume(pG.DrawData, 'M')" ng-click="GetGameActionByLineDraw(pG.Team1Data.moneyData.TeamId, pG.Team2Data.moneyData.TeamId, pG.DrawData, 'M', 'Money Line', sSs.PeriodInfo)" onclick="return false" data-toggle="modal" data-target="#ModalAgentPos" ng-class="{'num_zero' : pG.DrawData.MoneyLineCount == 0}">0</div>
+                                    <div class="col-lg-4 no-padding text-right ng-binding" ng-bind="CalculateCount(pG.DrawData, 'M')">0</div>
+
+                                  </div><!-- end ngIf: !showProfit -->
+                                </div>
+                                <div class="col-xs-12 col-lg-4" ng-show="IsMobile == false || tabDisplay == 3">
+                                  <div class="row">
+                                    <div class="col-sm-6 col-lg-4 no-padding-left text-right"></div>
+
+                                    <div class="col-xs-12 col-sm-6 col-lg-4 no-padding-left text-right"><span class="num_neg"></span></div>
+                                    <div class="col-lg-4 no-padding-left text-right"><span class="num_neg"></span></div>
+
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div><!-- end ngIf: !pG.IsTitle -->
+                  </li><!-- end ngRepeat: pG in sSs.PositionByGame | filter: FilterGames -->
+                </ul>
+              </div>
+
+            </div>
 
